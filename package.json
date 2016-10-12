@@ -1,0 +1,36 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mashabilyk/cv.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "Mary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mashabilyk/cv/issues"
+  },
+  "homepage": "https://github.com/Mashabilyk/cv#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.17.3",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-s3-ls": "^1.0.4",
+    "gulp-uglify": "^2.0.0",
+    "gulp-version-filename": "^1.0.2",
+    "jquery": "^3.1.1"
+  }
+}
