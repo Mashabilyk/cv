@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+  .navbar.navbar-default ul{
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .navbar.navbar-default ul a{
+    text-align: center;
+  }
+}

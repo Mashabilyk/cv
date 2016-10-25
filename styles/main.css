@@ -67,3 +67,42 @@ h1 {
   text-decoration: none;
   border: 2px solid #fff;
 }
+.btn.btn-info,
+.btn.btn-success {
+  background: none;
+  padding: 1.5em;
+}
+.btn.btn-info {
+  background-color: #52b3d9;
+  border-color: #52b3d9;
+}
+.btn.btn-success {
+  background-color: #68c3a3;
+  border-color: #68c3a3;
+}
+.btn.btn-info:hover,
+.btn.btn-success:hover{
+  background-color: transparent;
+  font-weight: bold;
+  transition: all .5s;
+}
+.navbar.navbar-default{
+  background: none;
+  background-color: #fff;
+  border: 1px double #eeeeee;
+  border-radius: 0;
+  box-shadow: none;
+  color: #000;
+  font-weight: bold;
+}
+.navbar.navbar-default ul{
+  text-transform: uppercase;
+  float: none;
+  display: flex;
+  justify-content: center;
+}
+
+#nav a:hover{
+  background-color: #68c3a3;
+  color:#fff;
+}
