@@ -1,8 +1,15 @@
 /*@media screen and (max-width:1170px){*/
-  #header {
-    background-image: none;
-  }
-  .contact_details {
-    margin-top: 20px;
-    }
+#header {
+  background-image: none;
+}
+.contact_details {
+  margin-top: 20px;
+}
+.tree li{
+  display: flex;
+  justify-content: space-around;
+}
+.tree li:nth-child(even){
+  flex-flow: row nowrap;
+}
 /*}*/
