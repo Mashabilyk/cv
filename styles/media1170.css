@@ -12,5 +12,10 @@
 .tree li:nth-child(even){
   flex-flow: row nowrap;
 }
+.tree li:nth-child(even) .tree__item::after{
+ left: calc(100% - 4px);
+ transform: rotate(45deg);
+}
+
 
 /*}*/

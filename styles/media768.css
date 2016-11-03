@@ -6,9 +6,9 @@
   .navbar.navbar-default ul a{
     text-align: center;
   }
-}
-.tree li:first-child .tree__line::before,
-.tree li:last-child .tree__line::after
- {
-  display: none;
+  .tree li:first-child .tree__line::before,
+  .tree li:last-child .tree__line::after
+  {
+    display: none;
+  }
 }

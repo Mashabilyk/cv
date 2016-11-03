@@ -116,12 +116,15 @@ h2{
   text-align: center;
   font-weight:bold;
   color: #000;
+  font-size: 50px;
+  margin-bottom: .5em;
 }
 h2::after{
   content: "";
   display: block;
   height: 20px;
   background: url(../img/png/divider.png) no-repeat 50%;
+  margin-top: .5em;
 }
 
 #about_me h4{
@@ -262,19 +265,59 @@ h2::after{
 .tree__item:hover + .tree__line::after{
   background-color: #68c3a3 !important;
 }
+/*Skills*/
+#skills {
+  background-color: #1a1e23;
+  color: #fff;
+}
+#skills h2{
+  color: inherit;
+}
+#skills h2::after{
+  opacity: .3;
+}
+#skills h3{
+  text-transform: uppercase;
+  text-align: center;
+}
+#skills .progress{
+  background: #3a4149;
+  height: 10px;
+  border-radius: 0;
+  overflow: visible;
+  margin-bottom: 2.25618em;
+}
+#skills .progress-bar{
+  background: #68c2a2;
+  position: relative;
+  transition: width 5s;
+}
+#skills .progress-counter{
+  position: absolute;
+  top: -20px;
+  right: -1em;
+}
 
 #work img{
-  margin: 10px;
+  max-width: 100%;
 }
-
-/* test O */
-
-#o{
-  width: 10px;
-  height: 10px;
-  background-color: #68c3a3;
-  transition: width 4s;
+#images img{
+  display: block;
+  position: relative;
+  z-index: 1;
 }
-#o:hover{
-  width: 100%;
+#images .ololo{
+  box-sizing: content-box;
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 30px);
+  background: rgba(255, 0, 0, 0.5);
+  display: none;
+}
+#images .col-lg-3:hover .ololo{
+  display: block;
+  z-index: 2;
+}
+#images .col-lg-3{
+  margin-bottom: 20px;
 }
