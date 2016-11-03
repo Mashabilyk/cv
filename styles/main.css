@@ -172,6 +172,11 @@ h2::after{
   bottom: 95px;
   left:30px;
 }
+#resume h4{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: bold;
+}
 
 /* tree classes*/
 
@@ -258,7 +263,9 @@ h2::after{
   background-color: #68c3a3 !important;
 }
 
-
+#work img{
+  margin: 10px;
+}
 
 /* test O */
 
