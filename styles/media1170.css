@@ -16,6 +16,9 @@
  left: calc(100% - 4px);
  transform: rotate(45deg);
 }
-
+#images {
+  text-align: left;
+padding: 20px;
+}
 
 /*}*/
